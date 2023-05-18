@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Socialdansa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jag vill som sidoprojekt under mina studier lansera en ny applikation inom socialdans i Sverige under namnet Socialdansa. Namnet och min egen-designade logotyp kommer att sätta en modern och tidlös prägel. 
 
-## Available Scripts
+Med fokus på design och användarvänlighet tror jag att Socialdansa kommer att bli attraktiv och på så sätt genererar användare. 
 
-In the project directory, you can run:
+Det är också troligt att användarna (dansare, dansband och arrangörer) ger applikationen ett gott rykte som sprids vidare till vänner och familj. Ett gott rykte kan även leda till samarbeten med organisationer/föreningar som vill vara med och finansiera sidan. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Bakgrund:
+Jag älskar att dansa till livemusik, särskilt att dansa bugg till bra dansbandsmusik. Det finns ett stort utbud på socialdanser i vårt avlånga land. Många av dagens aktuella webbsidor inom socialdans är i behov av mer kärlek och är dessutom svårnavigerade för dess målgrupp. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Jag har valt att ta inspiration från webbsidan https://www.danslogen.se/ eftersom jag själv har varit inne på sidan många gånger. Jag tycker att idén till sidan är bra eftersom man har försökt samla relevant information för målgruppen på en och samma plats, men att det finns en hel del förbättringspotential gällande utformning och design.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Med React:
+I denna del av mitt projekt har jag skapat en SPA(Single Page Application) med React. Det innebär att jag har behövt skapa en ny struktur och innehållshantering av min befintliga applikation så att den kan definieras som en SPA lösning.
