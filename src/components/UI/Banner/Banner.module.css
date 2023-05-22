@@ -1,0 +1,24 @@
+.banner {
+    text-align: center;
+    padding: 0.5rem 0 0.7rem 0;
+}
+
+.banner h5,
+.banner p {
+    font-size: 0.5rem;
+    height: 1rem;
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    .banner h5,
+    .banner p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .banner h5,
+    .banner p {
+        font-size: 0.8rem;
+    }
+}

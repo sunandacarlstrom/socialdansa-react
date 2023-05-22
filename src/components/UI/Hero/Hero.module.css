@@ -1,0 +1,49 @@
+.hero {
+    padding: 0 0 1.2rem 0;
+    text-align: center;
+}
+
+.hero-transparent {
+    opacity: 0.6;
+}
+
+.hero-container {
+    margin: 2rem 1rem 0 1rem;
+}
+
+.hero-title {
+    margin: 0.5rem 1rem;
+}
+
+.hero video {
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    .hero {
+        padding: 0 0 3rem 0;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .hero {
+        position: relative;
+        width: 100%;
+        height: calc(100vw * 0.5625);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
