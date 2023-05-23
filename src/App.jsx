@@ -1,4 +1,6 @@
-import "./App.css"; 
+import "./styles/App.css"; 
+import "./styles/colors.css"; 
+
 import Home from "./components/UI/Home/Home";
 
 const App = () => {

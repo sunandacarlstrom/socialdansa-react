@@ -15,32 +15,6 @@
     --banner-color: #fab005;
 }
 
-.bg-banner-color {
-    background-color: var(--banner-color);
-    color: var(--secondary-color);
-}
-
-.btn-primary-color {
-    background-color: var(--primary-color);
-    color: var(--primary-text-color);
-    font-weight: 700;
-}
-.btn-primary-color:hover {
-    color: var(--primary-text-color);
-    background-color: var(--primary-light-color);
-}
-
-.btn-secondary-color {
-    background-color: var(--secondary-color);
-    color: var(--primary-text-color);
-    font-weight: 700;
-}
-
-.btn-secondary-color:hover {
-    color: var(--primary-text-color);
-    background-color: var(--secondary-light-color);
-}
-
 .bg-light {
     background-color: var(--bg-light);
 }
@@ -53,10 +27,6 @@
 .bg-secondary {
     border: var(--secondary-color) solid 4px;
     background-color: var(--grey-bg-color);
-}
-
-.bg-content {
-    border: var(--primary-text-color) dotted 4px;
 }
 
 .bg-info {

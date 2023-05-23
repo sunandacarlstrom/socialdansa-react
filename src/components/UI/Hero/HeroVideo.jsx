@@ -1,8 +1,5 @@
-const HeroVideo = ({src = ""}) => {
-return (
-<video className="hero-transparent" src={src} type="video/mp4" autoPlay loop muted controls
-    playsInline></video>
-)
-}
+const HeroVideo = ({ src = "", className = "" }) => {
+    return <video className={className} src={src} type="video/mp4" autoPlay loop muted controls playsInline></video>;
+};
 
-export default HeroVideo; 
+export default HeroVideo;

@@ -9,6 +9,11 @@
     height: 1rem;
 }
 
+.bg-banner-color {
+    background-color: var(--banner-color);
+    color: var(--secondary-color);
+}
+
 @media screen and (min-width: 500px) and (max-width: 940px) {
     .banner h5,
     .banner p {

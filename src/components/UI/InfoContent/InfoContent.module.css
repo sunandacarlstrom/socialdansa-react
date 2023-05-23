@@ -1,0 +1,33 @@
+.info-content {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info-content,
+.info-content p {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    .info-content-row {
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .info-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
