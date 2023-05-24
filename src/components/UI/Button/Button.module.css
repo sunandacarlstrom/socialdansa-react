@@ -3,6 +3,9 @@
     display: inline-block;
     border-radius: 1.8rem;
     font-size: 0.7rem;
+    white-space: nowrap;
+    line-height: 1.4;
+    height: fit-content;
 }
 
 .btn:visited {
@@ -22,6 +25,7 @@
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 .btn-primary-color {

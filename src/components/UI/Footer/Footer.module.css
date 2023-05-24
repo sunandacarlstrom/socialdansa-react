@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 2rem 0.2rem 0.5rem 0.2rem;
+}
+
+.copywrite p {
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+footer span a {
+    font-size: 0.65rem;
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    footer {
+        font-size: 0.8rem;
+        padding: 3rem 0.5rem 1rem 0.5rem;
+    }
+
+    .copywrite p {
+        font-size: 0.7rem;
+    }
+}

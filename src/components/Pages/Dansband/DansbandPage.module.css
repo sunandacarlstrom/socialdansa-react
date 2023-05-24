@@ -1,0 +1,23 @@
+/* UNDERSIDA: Dansband */
+/* 
+.info-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+    margin: 0.4rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.info-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sub-title {
+    padding: 0.5rem 0;
+} */
+
+.grid-cards {
+    grid-template-columns: repeat(3, 1fr);
+}

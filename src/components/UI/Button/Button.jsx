@@ -1,6 +1,7 @@
-import styles from "./Button.module.css"
+import { Link } from "react-router-dom";
+import styles from "./Button.module.css";
 
-const Button = ({href, children, background}) => {
+const Button = ({ href, children, background }) => {
     var buttonStyle;
     switch (background) {
         case "primary":
@@ -13,11 +14,11 @@ const Button = ({href, children, background}) => {
             break;
     }
 
-    return(
-        <a href={href} className={`${styles.btn} ${buttonStyle}`}>
+    return (
+        <Link to={href} className={`${styles.btn} ${buttonStyle}`}>
             {children}
-        </a>
+        </Link>
     );
-}
+};
 
-export default Button; 
+export default Button;
