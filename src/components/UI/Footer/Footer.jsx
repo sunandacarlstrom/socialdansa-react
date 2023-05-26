@@ -9,7 +9,7 @@ const Footer = () => {
                 <FooterLink href="/index.html" text="Socialdansa" />
                 <Copyright />
                 {/* INSERT FONT AWESOME ICONS */}
-                <FooterLink href="om-oss.html" text="Om oss" />
+                <FooterLink href="/contact" text="Kontakta oss" />
             </footer>
         </>
     );

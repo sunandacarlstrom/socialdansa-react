@@ -1,0 +1,124 @@
+.form-container {
+    background-color: var(--primary-light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.surtitle {
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.sub-title {
+    margin-bottom: 1.2rem;
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-size: 0.7rem;
+}
+
+form {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.form-control {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 0.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+input[name="message"] {
+    height: 4rem;
+    word-wrap: break-word;
+}
+
+.bg-form {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    .form-control {
+        max-width: 640px;
+    }
+
+    .surtitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .sub-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 2rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+        margin-bottom: 1.2rem;
+    }
+
+    input[type="text"] {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .form-control {
+        max-width: 980px;
+    }
+
+    .surtitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .sub-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+    }
+
+    label {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    input[type="text"] {
+        font-size: 1rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+}

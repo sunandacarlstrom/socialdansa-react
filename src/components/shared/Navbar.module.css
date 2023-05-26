@@ -10,6 +10,11 @@ nav {
     padding: 0 1.5rem 0 1rem;
 }
 
+.logo {
+    height: 85px;
+    width: auto;
+}
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -25,22 +30,12 @@ nav ul {
     padding: 1.2rem 0 1rem 0;
 }
 
-nav .btn-navbar {
-    padding: 0.5rem 0.8rem;
-    font-size: 0.8rem;
-    border-radius: 1.5rem;
-}
 
 nav ul {
     list-style: none;
 }
 
-nav ul li.logo img {
-    height: 85px;
-    width: auto;
-}
-
-nav ul li.hamburger-menu {
+nav ul li.toggle {
     order: 1;
 }
 
@@ -58,8 +53,7 @@ nav ul li a {
     color: #fff;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
+nav ul li a:hover {
     color: var(--primary-color);
 }
 
@@ -149,7 +143,7 @@ nav ul li .menu-btn:checked ~ .menu-icon .nav-icon::after {
         width: auto;
     }
 
-    nav ul li.hamburger-menu {
+    nav ul li.toggle {
         display: none;
     }
 

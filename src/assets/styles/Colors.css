@@ -33,8 +33,3 @@
     background: var(--secondary-bg-color);
     color: var(--secondary-text-color);
 }
-
-.bg-form {
-    background-color: var(--secondary-bg-color);
-    color: var(--secondary-text-color);
-}

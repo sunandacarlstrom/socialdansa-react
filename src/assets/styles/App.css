@@ -50,6 +50,10 @@ a {
     color: var(--primary-text-color);
 }
 
+nav ul li a.active {
+    color: var(--primary-color);
+}
+
 @media screen and (min-width: 500px) and (max-width: 940px) {
     h1 {
         padding-top: 1rem;

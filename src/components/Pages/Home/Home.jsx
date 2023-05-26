@@ -14,7 +14,6 @@ import Footer from "../../UI/Footer/Footer";
 const Home = () => {
     return (
         <>
-            {/* <Navigation /> */}
             <Banner title="--- TÄVLING ---" text="Nu lottar vi ut två gratisbiljetter till nästa socialdans på Huskvarna Folkets Park!" />
             <Hero title="Sveriges största plattform inom socialdans" src={Video} alt="people dancing" />
             <MainContent>

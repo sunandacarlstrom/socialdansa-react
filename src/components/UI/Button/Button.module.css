@@ -49,6 +49,12 @@ button {
     background-color: var(--secondary-light-color);
 }
 
+.btn-navbar {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 1.5rem;
+}
+
 @media screen and (min-width: 500px) and (max-width: 940px) {
     .btn {
         padding: 1rem 1.5rem;
