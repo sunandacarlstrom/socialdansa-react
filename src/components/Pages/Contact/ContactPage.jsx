@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import Form from "../../UI/Form/Form";
+import ContactForm from "../../UI/Form/ContactForm";
 
 const Contact = () => {
     const [messages, setMessages] = useState([]);
@@ -21,7 +21,7 @@ const Contact = () => {
         setMessages(messageList); 
     };
 
-    return <Form onAddMessage={onAddMessageHandler} />;
+    return <ContactForm onAddMessage={onAddMessageHandler} />;
 };
 
 export default Contact;

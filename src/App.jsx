@@ -9,6 +9,8 @@ import DancebandPage from "./components/Pages/Danceband/DancebandPage";
 import AboutPage from "./components/Pages/About/AboutPage";
 import ContactPage from "./components/Pages/Contact/ContactPage";
 import AdminPage from "./components/Pages/Admin/AdminPage";
+import LoginPage from "./components/Pages/Account/LoginPage";
+import RegisterPage from "./components/Pages/Account/RegisterPage";
 
 const App = () => {
     return (
@@ -23,8 +25,8 @@ const App = () => {
                         <Route path="/danceband" element={<DancebandPage />} />
                         <Route path="/about" element={<AboutPage />} />
                         <Route path="/contact" element={<ContactPage />} />
-                        {/* <Route path="/login" element={<LoginPage />} /> */}
-                        {/* <Route path="/register" element={<RegisterPage />} /> */}
+                        <Route path="/login" element={<LoginPage />} />
+                        <Route path="/register" element={<RegisterPage />} />
                         <Route path="/admin" element={<AdminPage />} />
                     </Routes>
                 </section>
