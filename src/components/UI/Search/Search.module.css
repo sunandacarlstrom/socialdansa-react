@@ -1,0 +1,124 @@
+.row {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.column input {
+    margin: 0 0 0.5rem 0;
+}
+
+.btn-find {
+    padding: 0.4rem 1rem;
+    display: inline-block;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+}
+
+.btn-find:visited {
+    color: var(--primary-text-color);
+}
+
+#grid-list-socialdance p {
+    font-size: 0.6rem;
+}
+
+input[type="text"],
+input[type="date"] {
+    display: block;
+    width: 10rem;
+    height: 1.5rem; 
+    padding: 0.2rem;
+    font-size: 0.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 65vw;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 3rem;
+        padding: 2rem 5rem;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .column:nth-last-child(1) {
+        margin-left: 0.5rem;
+    }
+
+    #grid-list-socialdance p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .hero img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.5rem 2rem;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 4rem;
+        padding: 2rem 0;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .column:nth-last-child(1) {
+        margin-left: 2rem;
+    }
+
+    #grid-list-socialdance p {
+        font-size: 1rem;
+    }
+}

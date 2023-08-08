@@ -4,6 +4,7 @@ import "./assets/styles/Colors.css";
 
 import Home from "./components/Pages/Home/Home";
 import Navbar from "./components/shared/Navbar";
+import SocialdancePage from "./components/Pages/Socialdance/SocialdancePage";
 import DancebandPage from "./components/Pages/Danceband/DancebandPage";
 import AboutPage from "./components/Pages/About/AboutPage";
 import ContactPage from "./components/Pages/Contact/ContactPage";
@@ -18,7 +19,7 @@ const App = () => {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         {/* <Route path="/map" element={<MapPage />} /> */}
-                        {/* <Route path="/socialdance" element={<SocialdancePage />} /> */}
+                        <Route path="/socialdance" element={<SocialdancePage />} />
                         <Route path="/danceband" element={<DancebandPage />} />
                         <Route path="/about" element={<AboutPage />} />
                         <Route path="/contact" element={<ContactPage />} />
