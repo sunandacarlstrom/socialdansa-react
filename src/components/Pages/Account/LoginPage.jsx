@@ -1,8 +1,8 @@
-import LoginForm from "../../UI/Form/LoginForm";
+import AccountForm from "../../UI/Form/AccountForm";
 
 const LoginPage = () => {
     return (
-        <LoginForm />
+        <AccountForm />
     );
 };
 

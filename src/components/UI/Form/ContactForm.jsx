@@ -1,5 +1,5 @@
 import Form from "./Form";
-import styles from "./Form.module.css";
+import styles from "./ContactForm.module.css";
 import SubmitButton from "../Button/SubmitButton";
 
 const ContactForm = ({ onAddMessage }) => {

@@ -10,14 +10,14 @@ const Search = () => {
                 <div className={styles.row}>
                     <div className={styles.column}>
                         <h3>Var?</h3>
-                        <input type="text" placeholder="Ort" />
+                        <input className={styles.input} type="text" placeholder="Ort" />
                         <FormButton background="secondary">
                             Närmast!
                         </FormButton>
                     </div>
                     <div className={styles.column}>
                         <h3>När?</h3>
-                        <input type="date" name="" id="date" />                        
+                        <input className={styles.input} type="date" name="" id="date" />                        
                         <FormButton background="secondary">
                             Ikväll!
                         </FormButton>
