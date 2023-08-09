@@ -10,12 +10,12 @@ const LoginForm = ({ onAddMessage }) => {
                 <p className={styles.description}>När du loggar in kan du som användare exempelvis spara sorteringsalternativ t.ex. favoritort.</p>
             </div>
             <div className={styles["flex-form"]}>
-                <label htmlFor="username">E-postadress:</label>
-                <input type="email" required id="username" name="username" placeholder="Skriv in användarnamn" />
+                <label className={styles.label} htmlFor="username">E-postadress:</label>
+                <input className={styles.input} type="email" required id="username" name="username" placeholder="Skriv in användarnamn" />
             </div>
             <div className={styles["flex-form"]}>
-                <label htmlFor="password">Lösenord:</label>
-                <input type="password" required id="password" name="password" placeholder="Skriv in lösenord" />
+                <label className={styles.label} htmlFor="password">Lösenord:</label>
+                <input className={styles.input} type="password" required id="password" name="password" placeholder="Skriv in lösenord" />
             </div>
             <div className={styles["flex-form"]}>
                 <SubmitButton background="primary">Logga in</SubmitButton>

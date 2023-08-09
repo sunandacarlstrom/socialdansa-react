@@ -32,8 +32,7 @@
     font-size: 0.6rem;
 }
 
-input[type="text"].input,
-input[type="date"].input {
+.input {
     display: block;
     width: 12rem;
     color: gray;

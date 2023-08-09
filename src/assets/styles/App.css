@@ -44,6 +44,10 @@ p {
     font-size: 0.7rem;
 }
 
+textarea {
+    font-family: "Open Sans", sans-serif;
+}
+
 a {
     font-size: 0.8rem;
     text-decoration: none;
@@ -52,6 +56,11 @@ a {
 
 nav ul li a.active {
     color: var(--primary-color);
+}
+
+button {
+    border: none;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 500px) and (max-width: 940px) {

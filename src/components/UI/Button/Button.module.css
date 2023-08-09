@@ -23,11 +23,6 @@
     color: var(--primary-text-color);
 }
 
-button {
-    border: none;
-    cursor: pointer;
-}
-
 .btn-primary-color {
     background-color: var(--primary-color);
     color: var(--primary-text-color);
